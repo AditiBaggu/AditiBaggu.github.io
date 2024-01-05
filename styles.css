@@ -6,21 +6,25 @@ body {
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "georgia";
+
 }
 .main {
   background-color: white;
   height: auto;
-  width: 650px;
+  width: 800px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 150%;
+  top: 180%;
   border: 1px solid black;
-  box-shadow: black 5px 5px, rgba(36, 36, 36, 0.3) 10px 10px, rgba(41, 41, 41, 0.2) 15px 15px, rgba(58, 58, 58, 0.1) 20px 20px, rgba(89, 89, 89, 0.2) 25px 25px;
+  box-shadow: black 5px 5px, rgba(36, 36, 36, 0.3) 10px 10px,
+    rgba(41, 41, 41, 0.2) 15px 15px, rgba(58, 58, 58, 0.1) 20px 20px,
+    rgba(89, 89, 89, 0.2) 25px 25px;
 }
 .left {
   background-color: #325283;
-  width: 240px;
+  width: 280px;
   height: 100%;
   float: left;
 }
@@ -30,7 +34,7 @@ body {
   background-color: #ddd;
   border-radius: 50%;
   margin-bottom: 20px;
-  margin-left: 30px;
+  margin-left: 50px;
   border: 10px solid white;
 }
 .profile-img img {
@@ -62,9 +66,9 @@ body {
   color: white;
 }
 .p1 {
-  font-family: "times new roman", times, serif;
+  font-family: "georgia";
   padding: 9px 10px;
-  font-size: 13px;
+  font-size: 12px;
 }
 .icons1 {
   font-size: 16px !important;
@@ -82,19 +86,36 @@ body {
   padding-bottom: 2px;
   color: white;
 }
-.english, .mern, .sql, .fusion{
-    width: 90%;
-    background-color: white;
+.english,
+.mern,
+.sql,
+.fusion {
+  width: 90%;
+  background-color: white;
 }
-.telugu, .c, .python, .javascript, .jquery{
-    width: 70%;
-    background-color: white;
+.telugu,
+.c,
+.python,
+.javascript,
+.jquery {
+  width: 70%;
+  background-color: white;
 }
-.hindi, .ml, .java{
-    width: 50%;
-    background-color: white;
+.hindi,
+.ml,
+.java {
+  width: 50%;
+  background-color: white;
 }
 
 .icons2 {
   padding: 18px 10px;
+  margin-left: 5px;
+}
+
+li{
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 25px;
+font-size: 12px;
 }
