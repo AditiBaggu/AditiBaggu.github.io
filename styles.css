@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
-  font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
 }
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "georgia";
 
 }
 .main {
@@ -16,7 +14,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 170%;
+  top: 162%;
   border: 1px solid black;
   box-shadow: black 5px 5px, rgba(36, 36, 36, 0.3) 10px 10px,
     rgba(41, 41, 41, 0.2) 15px 15px, rgba(58, 58, 58, 0.1) 20px 20px,
@@ -25,7 +23,7 @@ body {
 .left {
   background-color: #325283;
   width: 280px;
-  height: 1900px;
+  height: 1800px;
   float: left;
 }
 .profile-img {
@@ -44,11 +42,13 @@ body {
 .heading {
   background-color: white;
   padding: 10px;
-  color: #325283;
   text-align: left;
   padding-left: 20px;
   margin-right: -15px;
   width: 180px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #325283;
+  font-weight: bold;
 }
 .heading::after {
   content: "";
@@ -66,9 +66,10 @@ body {
   color: white;
 }
 .p1 {
-  font-family: "georgia";
+  font-family: Didot, serif	;
   padding: 9px 10px;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 500;
 }
 .icons1 {
   font-size: 16px !important;
@@ -117,17 +118,20 @@ li{
     list-style-type: square;
     padding-left: 20px;
     line-height: 22px;
-font-size: 12px;
+    font-size: 14px;
+  font-weight: 500;
+  font-family: Didot, serif	;
 }
 
 .name-div {
     padding: 86px 0px 60px 55px;
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-top: -30px;
   }
   .name-div h1 {
     margin-bottom: 10px;
+    font-size: 40px;
   }
   .box-21 {
     padding: 0px 50px;
@@ -140,32 +144,31 @@ font-size: 12px;
     margin-left: 260px;
   }
   .p2 {
-    font-size: 11.5px;
-    font-weight: 300px;
+    font-size: 14px;
+  font-weight: 500;
     letter-spacing: 1px;
     word-spacing: 2px;
     line-height: 18px;
     margin-top: 5px;
+    letter-spacing: 0.5px;
 
   }
   h2 {
-    font-size: 16px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #325283;
+  font-weight: bold;
     margin-bottom: 15px;
+  }
+
+  h5{
+    font-size: 15px;
+  font-weight: bolder;
   }
   .icons3 {
     vertical-align: bottom;
     font-size: 21px !important;
-    color: #4d4d4d;
-  }
-  .p3 {
-    font-size: 13px;
-    word-spacing: 1px;
-    letter-spacing: 0px;
-    margin-top: 10px;
-  }
-  .p3 span {
-    color: #ff9b00;
-    padding-left: 20px;
+    color: white;
   }
   
   .dotted-line {
